@@ -3,23 +3,21 @@
 layout: home
 
 hero:
-  name: "notes"
-  text: "Site with notes about what I want to remember."
-  tagline: My great project tagline
+  tagline: This is finally one place where I can put my notes to.
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+    - theme: alt
+      text: Typescript
+      link: /typescript
+    - theme: alt
+      text: Javascript
+      link: /javascript
+    - theme: alt
+      text: Golang
+      link: /golang
     - theme: alt
       text: API Examples
       link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - theme: alt
+      text: Markdown Examples
+      link: /markdown-examples
 ---
-
