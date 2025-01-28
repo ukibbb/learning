@@ -17,11 +17,35 @@ export default defineConfig({
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
           { text: "Runtime API Examples", link: "/api-examples" },
-          { text: "Golang", link: "/golang" },
-          { text: "Typescript", link: "/typescript" },
-          { text: "Javascript", link: "/javascript" },
+          {
+            text: "Golang",
+            link: "/golang/",
+            collapsed: true,
+            items: [
+              {
+                text: "xxx",
+              },
+            ],
+          },
+          { text: "Typescript", link: "/typescript/" },
+          {
+            text: "Javascript",
+            link: "/javascript/",
+            collapsed: true,
+            items: [
+              {
+                text: "React",
+                link: "/javascript/react/",
+              },
+              {
+                text: "Nest",
+                link: "/javascript/nest/",
+              },
+            ],
+          },
         ],
       },
+      {},
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/ukibbb" }],
